@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-CMD [ "ls" ]
+CMD [ "ls" "ping -c3 8.8.8.8" ]
